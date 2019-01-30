@@ -20,7 +20,7 @@ spec:
           variables:
             PORT: 3001
             NODE_ENV: "production"
-            ECHO_URL: "http://echo"
+            ECHO_URL: "http://echo:3000"
     - name: echo
       src: ./echo
       ports:
@@ -31,6 +31,5 @@ spec:
       environmentVariables:
         - environment: production
           variables:
-            PORT: 300
+            PORT: 3000
             NODE_ENV: "production"
-            ECHO_URL: "http://echo:3000"
