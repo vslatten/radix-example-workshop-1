@@ -67,9 +67,10 @@ Important to know:
 
 ### 1.1.7. Creating the application on Radix
 
-1. Follow the getting started guide or "just do it!"
-2. Do a change to trigger the initial build. Examine web-hooks and reponse in Radix
-3. Verify that the app work on the public end-point it has been given.
+1. Update the name of ```your instance``` of the application in radixconfig.yaml
+2. Follow the getting started guide or "just do it!"
+3. Do a change to trigger the initial build. Examine web-hooks and reponse in Radix
+4. Verify that the app work on the public end-point it has been given.
 
 ### 1.1.8. Using multiple branches - multiple environments
 
