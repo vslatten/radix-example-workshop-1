@@ -81,7 +81,6 @@ Radix support connecting a branch to a specific environment. Let's explore this.
 3. Move back to master, update the radixconfig.yaml file, commit, push and explore what's happening in Radix.
 4. Check-out feature1, do a change, commit, push and explore what's happening in Radix.
 
-
 ### 1.1.9. Monitoring & Metrics
 
 - To Be Decided
