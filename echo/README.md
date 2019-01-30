@@ -24,6 +24,10 @@ Run the application
 ```
 npm start
 ```
+Run the application dev mode - automatic restart of server when changes in source code are detected.
+```
+npm run dev
+```
 Run a vulnerability check on dependencies
 ```
 npm audit

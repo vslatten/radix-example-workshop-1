@@ -10,6 +10,12 @@
             "request": "launch",
             "name": "Debug echo",
             "program": "${workspaceFolder}/echo/bin/www.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug www",
+            "program": "${workspaceFolder}/www/bin/www.js"
         }
     ]
 }
