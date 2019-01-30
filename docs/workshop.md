@@ -42,11 +42,11 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
 
 ### 1.1.3. Exploring the Echo app
 
-1. Move into the [echo](./echo/) folder and explore how to develop the Echo app using ```Node.js``` as well as Dockerizing the application.
+1. Move into the [echo](../echo/) folder and explore how to develop the Echo app using ```Node.js``` as well as Dockerizing the application.
 
 ### 1.1.4. Exploring the Echo app
 
-1. Move into the [www](./www/) folder and explore how to develop the WWW app using ```Node.js``` as well as Dockerizing the application. 
+1. Move into the [www](../www/) folder and explore how to develop the WWW app using ```Node.js``` as well as Dockerizing the application. 
 
 Remember that the Echo app needs to run somewhere to get proper response.
 
@@ -63,7 +63,7 @@ Important to know:
 ### 1.1.6. Explore radixconfig.yaml
 
 1. Reading the [docs](https://github.com/equinor/radix-operator/blob/master/docs/radixconfig.md)
-2. Exploring the config file for the example app [./radixconfig.yaml](./blob/master/radixconfig.yaml)
+2. Exploring the config file for the example app [./radixconfig.yaml](../radixconfig.yaml)
 
 ### 1.1.7. Creating the application on Radix
 
