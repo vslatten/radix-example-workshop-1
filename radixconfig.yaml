@@ -22,15 +22,15 @@ spec:
             NODE_ENV: "production"
             ECHO_URL: "http://echo:3000"
     - name: echo
-          src: ./echo
-          ports:
-          - name: http
-            port: 3000
-          public: false
-          replicas: 4
-          environmentVariables:
-            - environment: production
-              variables:
-                PORT: 300
-                NODE_ENV: "production"
-                ECHO_URL: "http://echo:3000"
+      src: ./echo
+      ports:
+      - name: http
+        port: 3000
+      public: false
+      replicas: 4
+      environmentVariables:
+        - environment: production
+          variables:
+            PORT: 300
+            NODE_ENV: "production"
+            ECHO_URL: "http://echo:3000"
