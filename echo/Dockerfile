@@ -24,7 +24,7 @@ FROM dependencies as test
 WORKDIR /usr/src/app
 #COPY test test
 #RUN ["npm","test"]
-#COPY .eslintrc.json .eslintignore ./
+COPY .eslintrc.json .eslintignore ./
 RUN npm run lint
 RUN npm audit
 
@@ -35,4 +35,5 @@ FROM base as release
 WORKDIR /usr/src/app
 COPY --from=dependencies /usr/src/app/node_modules_production ./node_modules
 EXPOSE 3000
+ENV NODE_ENV=production
 ENTRYPOINT [ "npm", "start"]
