@@ -1,0 +1,36 @@
+apiVersion: radix.equinor.com/v1
+kind: RadixApplication
+metadata:
+  name: ws-www
+spec:
+  environments:
+    - name: production
+      build:
+        from: master
+  components:
+    - name: www
+      src: ./www
+      ports:
+       - name: http
+         port: 3001
+      public: true
+      replicas: 1
+      environmentVariables:
+        - environment: production
+          variables:
+            PORT: 3001
+            NODE_ENV: "production"
+            ECHO_URL: "http://echo:3000"
+    - name: echo
+          src: ./echo
+          ports:
+          - name: http
+            port: 3000
+          public: false
+          replicas: 4
+          environmentVariables:
+            - environment: production
+              variables:
+                PORT: 300
+                NODE_ENV: "production"
+                ECHO_URL: "http://echo:3000"
