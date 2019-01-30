@@ -14,6 +14,14 @@ spec:
        - name: http
          port: 3001
       public: true
+      monitoring: true
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "100m"
+        limits:
+          memory: "96Mi"
+          cpu: "200m"
       replicas: 1
       environmentVariables:
         - environment: production
@@ -27,6 +35,14 @@ spec:
       - name: http
         port: 3000
       public: false
+      monitoring: true
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "100m"
+        limits:
+          memory: "96Mi"
+          cpu: "200m"
       replicas: 4
       environmentVariables:
         - environment: production
