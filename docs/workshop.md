@@ -57,7 +57,7 @@ Remember that the Echo app needs to run somewhere to get proper response.
 Important to know:
 
 1. The difference between ```platform user``` and ```application user```
-2. Important terminology: ```application```, ```environments```,```components```, and ```pods```
+2. Important terminology: ```application```, ```environments```,```components```, and ```replicas```
 3. ```raidxconfig.yaml``` - lives on the master branch and is your infrastrucure as code - drive your app in Radix.
 
 ### 1.1.6. Explore radixconfig.yaml
