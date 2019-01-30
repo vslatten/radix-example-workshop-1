@@ -42,11 +42,11 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
 
 ### 1.1.3. Exploring the Echo app
 
-1. Move into the [echo](./echo/README.md) folder and explore how to develop the Echo app using ```Node.js``` as well as Dockerizing the application.
+1. Move into the [echo](./echo/) folder and explore how to develop the Echo app using ```Node.js``` as well as Dockerizing the application.
 
 ### 1.1.4. Exploring the Echo app
 
-1. Move into the [www](./www/README.md) folder and explore how to develop the WWW app using ```Node.js``` as well as Dockerizing the application. 
+1. Move into the [www](./www/) folder and explore how to develop the WWW app using ```Node.js``` as well as Dockerizing the application. 
 
 Remember that the Echo app needs to run somewhere to get proper response.
 
@@ -63,7 +63,7 @@ Important to know:
 ### 1.1.6. Explore radixconfig.yaml
 
 1. Reading the [docs](https://github.com/equinor/radix-operator/blob/master/docs/radixconfig.md)
-2. Exploring the config file for the example app [./radixconfig.yaml](./radixconfig.yaml)
+2. Exploring the config file for the example app [./radixconfig.yaml](./blob/master/radixconfig.yaml)
 
 ### 1.1.7. Creating the application on Radix
 
@@ -76,10 +76,10 @@ Important to know:
 
 Radix support connecting a branch to a specific environment. Let's explore this.
 
-1. Move to "new" branch (feature1)
-2. Examine code - the new feature  (getting a new env variable from Radix)
-3. Move back to master, update the radixconfig.yaml file, commit, push and explore what's happening in Radix.
-4. Check-out feature1, do a change, commit, push and explore what's happening in Radix.
+1. Update the radixconfig.yaml file, commit, push and explore what's happening in Radix. (Copy the file ./radixconfigs/radixconfig-feature1.yaml to ./radixconfig.yaml. Remember to update app name)
+1. Check out the "new" branch (feature1)
+2. Examine code - the new feature  (getting a new env variable from Echo)
+4. Do a change, commit, push and explore what's happening in Radix.
 
 ### 1.1.9. Monitoring & Metrics
 
