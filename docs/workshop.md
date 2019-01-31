@@ -19,8 +19,11 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
         - [1.1.9. Monitoring & Metrics](#119-monitoring--metrics)
     - [1.2. Part 2](#12-part-2)
         - [1.2.1. Next steps](#121-next-steps)
-    - [1.3. Q&A](#13-qa)
-    - [1.4. Where to get started & get help](#14-where-to-get-started--get-help)
+    - [1.3. Typical questions](#13-typical-questions)
+    - [1.4. Where to get started, get help, log issues or feature requests](#14-where-to-get-started-get-help-log-issues-or-feature-requests)
+        - [1.4.1. Getting help](#141-getting-help)
+        - [1.4.2. Getting started](#142-getting-started)
+        - [1.4.3. Log issues & feature requests](#143-log-issues--feature-requests)
 
 <!-- /TOC -->
 ## 1.1. Part 1
@@ -28,7 +31,7 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
 ### 1.1.1. Pre-requisites
 
 - Added to proper AD Group ```fg_radix_platform_user```
-- Verify access to Radix -- url --
+- Verify access to Radix - https://console.radix.equinor.com/
 - Account on github.com
 - Git installed and working locally against github.com
 - Docker running locally
@@ -38,7 +41,8 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
 
 ### 1.1.2. Getting started
 
-1. Fork repository to your home on github. Consider choosing an alternative name.
+1. Fork repository to your home on github. Consider choosing an alternative name for the repository
+2. Clone your newly forked repository down to your developer laptop
 
 ### 1.1.3. Exploring the Echo app
 
@@ -52,7 +56,8 @@ Remember that the Echo app needs to run somewhere to get proper response.
 
 ### 1.1.5. Preparing for Radix
 
-* The Radix cluster we use for the workshop is available at https://web-radix-web-console-prod.playground.dev.radix.equinor.com/
+* The Radix cluster we use for the workshop is available at https://console.radix.equinor.com/
+* Radix "getting started++" is available at https://www.radix.equinor.com/
 
 Important to know:
 
@@ -68,7 +73,7 @@ Important to know:
 ### 1.1.7. Creating the application on Radix
 
 1. Update the name of ```your instance``` of the application in radixconfig.yaml
-2. Follow the getting started guide or "just do it!"
+2. Follow the getting started guide (www.radix.equinor.com) or "just do it!"
 3. Do a change to trigger the initial build. Examine web-hooks and reponse in Radix
 4. Verify that the app work on the public end-point it has been given.
 
@@ -92,14 +97,30 @@ Radix support connecting a branch to a specific environment. Let's explore this.
 * Move your own apps into Radix
 
 
-## 1.3. Q&A
+## 1.3. Typical questions
 
 (Status as of January 2019)
 * Storage - databases
 * Authentication
 * Logging
+* Metrics - Monitoring
+* Radix CLI (Api)
+* Backup & Disaster recovery
+* Own domain names / urls for apps
 
-## 1.4. Where to get started & get help
+## 1.4. Where to get started, get help, log issues or feature requests
+
+### 1.4.1. Getting help
 
 * Slack (#omnia_radix, #omnia_radix_support)
-* www.radix.equinor.com - https://console.radix.equinor.com/
+* Radix Console -  https://console.radix.equinor.com/
+
+### 1.4.2. Getting started
+
+* Radix Getting Started - https://www.radix.equinor.com/
+
+### 1.4.3. Log issues & feature requests
+
+* https://github.com/equinor/radix-platform/issues
+
+It makes sense to examing existing issues and perhaps discuss on Slack prior to logging a new one
