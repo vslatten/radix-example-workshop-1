@@ -74,7 +74,7 @@ Important to know:
 
 1. Update the name of ```your instance``` of the application in radixconfig.yaml
 2. Follow the getting started guide (www.radix.equinor.com) or "just do it!"
-3. Do a change to trigger the initial build. Examine web-hooks and reponse in Radix
+3. Do a change to trigger the initial build (or use the "New job" feature in the jobs/environment section). Examine web-hooks and reponse in Radix
 4. Verify that the app work on the public end-point it has been given.
 
 ### 1.1.8. Using multiple branches - multiple environments
