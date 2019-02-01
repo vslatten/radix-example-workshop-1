@@ -11,7 +11,7 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
         - [1.1.1. Pre-requisites](#111-pre-requisites)
         - [1.1.2. Getting started](#112-getting-started)
         - [1.1.3. Exploring the Echo app](#113-exploring-the-echo-app)
-        - [1.1.4. Exploring the Echo app](#114-exploring-the-echo-app)
+        - [1.1.4. Exploring the WWW app](#114-exploring-the-www-app)
         - [1.1.5. Preparing for Radix](#115-preparing-for-radix)
         - [1.1.6. Explore radixconfig.yaml](#116-explore-radixconfigyaml)
         - [1.1.7. Creating the application on Radix](#117-creating-the-application-on-radix)
@@ -48,7 +48,7 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
 
 1. Move into the [echo](../echo/) folder and explore how to develop the Echo app using ```Node.js``` as well as Dockerizing the application.
 
-### 1.1.4. Exploring the Echo app
+### 1.1.4. Exploring the WWW app
 
 1. Move into the [www](../www/) folder and explore how to develop the WWW app using ```Node.js``` as well as Dockerizing the application. 
 
