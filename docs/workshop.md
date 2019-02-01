@@ -1,3 +1,5 @@
+ <!-- markdownlint-disable MD014 MD007 MD034-->
+
 # 1. Omnia Radix Workshop 1
 
 Purpose
@@ -17,15 +19,16 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
         - [1.1.7. Creating the application on Radix](#117-creating-the-application-on-radix)
         - [1.1.8. Using multiple branches - multiple environments](#118-using-multiple-branches---multiple-environments)
         - [1.1.9. Monitoring & Metrics](#119-monitoring--metrics)
-    - [1.2. Part 2](#12-part-2)
-        - [1.2.1. Next steps](#121-next-steps)
-    - [1.3. Typical questions](#13-typical-questions)
-    - [1.4. Where to get started, get help, log issues or feature requests](#14-where-to-get-started-get-help-log-issues-or-feature-requests)
-        - [1.4.1. Getting help](#141-getting-help)
-        - [1.4.2. Getting started](#142-getting-started)
-        - [1.4.3. Log issues & feature requests](#143-log-issues--feature-requests)
+    - [1.2. Typical questions](#12-typical-questions)
+    - [1.3. Where to get started, get help, log issues or feature requests](#13-where-to-get-started-get-help-log-issues-or-feature-requests)
+        - [1.3.1. Getting help](#131-getting-help)
+        - [1.3.2. Getting started](#132-getting-started)
+        - [1.3.3. Log issues & feature requests](#133-log-issues--feature-requests)
+    - [1.4. Part 2](#14-part-2)
+        - [1.4.1. Next steps](#141-next-steps)
 
 <!-- /TOC -->
+
 ## 1.1. Part 1
 
 ### 1.1.1. Pre-requisites
@@ -50,14 +53,14 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
 
 ### 1.1.4. Exploring the WWW app
 
-1. Move into the [www](../www/) folder and explore how to develop the WWW app using ```Node.js``` as well as Dockerizing the application. 
+1. Move into the [www](../www/) folder and explore how to develop the WWW app using ```Node.js``` as well as Dockerizing the application.
 
 Remember that the Echo app needs to run somewhere to get proper response.
 
 ### 1.1.5. Preparing for Radix
 
-* The Radix cluster we use for the workshop is available at https://console.radix.equinor.com/
-* Radix "getting started++" is available at https://www.radix.equinor.com/
+- The Radix cluster we use for the workshop is available at https://console.radix.equinor.com/
+- Radix "getting started++" is available at https://www.radix.equinor.com/
 
 Important to know:
 
@@ -82,45 +85,45 @@ Important to know:
 Radix support connecting a branch to a specific environment. Let's explore this.
 
 1. Update the radixconfig.yaml file, commit, push and explore what's happening in Radix. (Copy the file ./radixconfigs/radixconfig-feature1.yaml to ./radixconfig.yaml. Remember to update app name)
-1. Check out the "new" branch (feature1)
-2. Examine code - the new feature  (getting a new env variable from Echo)
+2. Check out the "new" branch (feature1)
+3. Examine code - the new feature  (getting a new env variable from Echo)
 4. Do a change, commit, push and explore what's happening in Radix.
 
 ### 1.1.9. Monitoring & Metrics
 
 - To Be Decided
 
-## 1.2. Part 2
-
-### 1.2.1. Next steps
-
-* Move your own apps into Radix
-
-
-## 1.3. Typical questions
+## 1.2. Typical questions
 
 (Status as of January 2019)
-* Storage - databases
-* Authentication
-* Logging
-* Metrics - Monitoring
-* Radix CLI (Api)
-* Backup & Disaster recovery
-* Own domain names / urls for apps
 
-## 1.4. Where to get started, get help, log issues or feature requests
+- Storage - databases
+- Authentication
+- Logging
+- Metrics - Monitoring
+- Radix CLI (Api)
+- Backup & Disaster recovery
+- Own domain names / urls for apps
 
-### 1.4.1. Getting help
+## 1.3. Where to get started, get help, log issues or feature requests
 
-* Slack (#omnia_radix, #omnia_radix_support)
-* Radix Console -  https://console.radix.equinor.com/
+### 1.3.1. Getting help
 
-### 1.4.2. Getting started
+- Slack ([#omnia_radix](https://equinor.slack.com/messages/C8U7XGGAJ), [#omnia_radix_support](https://equinor.slack.com/messages/CBKM6N2JY))
+- Radix Console -  https://console.radix.equinor.com/
 
-* Radix Getting Started - https://www.radix.equinor.com/
+### 1.3.2. Getting started
 
-### 1.4.3. Log issues & feature requests
+- Radix Getting Started - https://www.radix.equinor.com/
 
-* https://github.com/equinor/radix-platform/issues
+### 1.3.3. Log issues & feature requests
+
+- https://github.com/equinor/radix-platform/issues
 
 It makes sense to examing existing issues and perhaps discuss on Slack prior to logging a new one
+
+## 1.4. Part 2
+
+### 1.4.1. Next steps
+
+- Move your own apps into Radix
