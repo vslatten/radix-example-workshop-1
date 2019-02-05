@@ -8,6 +8,6 @@ Purpose - a simple two module app. The public front-end (www) will respond to re
 - ```www``` contains the www front-end
 - ```docs``` contains the workshop script ([link](./docs/workshop.md))
 
-## A conceptual overview of the application
+## A conceptual overview of the application.
 
 ![Conseptual diagram](./docs/smalldiagram.png)
