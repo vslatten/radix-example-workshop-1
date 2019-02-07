@@ -49,6 +49,8 @@ spec:
           variables:
             PORT: 3000
             NODE_ENV: "production"
+      secrets:
+        - MY_SUPER_SECRET
   dnsAppAlias:
     environment: production
     component: www
