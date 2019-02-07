@@ -10,7 +10,8 @@ What does this ting do? It responds to http request on a given port at root (/) 
     "RADIX_CLUSTERNAME": "",
     "RADIX_COMPONENT": "",
     "RADIX_ENVIRONMENT": "",
-    "HOSTNAME": ""
+    "HOSTNAME": "",
+    "HOSTPLATFORM": ""
 }
 ```
 
