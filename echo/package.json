@@ -7,7 +7,8 @@
     "start": "node ./bin/www",
     "debug": "DEBUG=* node ./node_modules/nodemon/bin/nodemon ./bin/www",
     "dev": "node ./node_modules/nodemon/bin/nodemon ./bin/www",
-    "lint": "node ./node_modules/eslint/bin/eslint.js . --ext .js"
+    "lint": "node ./node_modules/eslint/bin/eslint.js . --ext .js",
+    "test": "mocha"
   },
   "author": "Lars Kaare Skjorestad",
   "license": "MIT",
@@ -20,7 +21,10 @@
     "morgan": "~1.9.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^5.12.1",
-    "nodemon": "^1.18.9"
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "supertest": "^3.4.2"
   }
 }

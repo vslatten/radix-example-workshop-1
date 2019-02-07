@@ -28,6 +28,10 @@ Run the application dev mode - automatic restart of server when changes in sourc
 ```
 npm run dev
 ```
+Run tests
+```
+npm test
+```
 Run a vulnerability check on dependencies
 ```
 npm audit
