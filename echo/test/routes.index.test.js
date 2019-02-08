@@ -36,6 +36,7 @@ describe('Testing index router', function () {
                 expect(res.body).to.have.property('RADIX_COMPONENT');
                 expect(res.body).to.have.property('RADIX_ENVIRONMENT');
                 expect(res.body).to.have.property('HOSTNAME');
+                expect(res.body).to.have.property('HOSTPLATFORM');
             })
             .end(function (err) {
                 if (err)
