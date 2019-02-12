@@ -101,7 +101,7 @@ Radix support connecting a branch to a specific environment. Let's explore this.
 
 ### 1.1.9. Monitoring & Metrics
 
-- To Be Decided
+The Echo component is exposing metrics on the /metrics endpoint. These metrics are scraped by [Prometheus](https://prometheus.io/docs/introduction/overview/) and made available in [Grafana](https://grafana.com/). Consult the docs for Prometheus and Grafana for how to work with metrics and monitoring.
 
 ## 1.2. Typical questions
 
