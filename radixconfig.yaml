@@ -35,7 +35,7 @@ spec:
       - name: http
         port: 3000
       public: false
-      monitoring: false
+      monitoring: true
       resources:
         requests:
           memory: "64Mi"

@@ -65,3 +65,7 @@ To run the Echo app in Docker
 docker run -it --name=echo --rm -p 3000:3000 echo
 ```
 (replace ```-it``` with ```-d``` to run in detached mode)
+
+## Metrics
+
+Metrics are exposed on the /metrics endpoint. The example is using the express-prom-bundle module which exposes http request durations. The metrics are scraped by Prometheus and made available in Graphana. (Remember to set monitoring:true in the radixconfig file)

@@ -1,13 +1,24 @@
 /*jslint node: true */
 /*jshint esversion: 6 */
 
+const promBundle = require('express-prom-bundle');
 var createError = require('http-errors');
 var express = require('express');
-// var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+
+const metricsMiddleware = promBundle({
+    includeStatusCode: true,
+    includeMethod: true,
+    includePath:true,
+    customLabels: {
+        component_name: 'echo',
+        author: 'lksk'
+    },
+    includeUp: 1,
+});
 
 var app = express();
 
@@ -15,7 +26,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-
+app.use(metricsMiddleware);
 app.use('/', indexRouter);
 
 // catch 404 and forward to error handler
