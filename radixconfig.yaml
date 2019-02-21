@@ -17,11 +17,11 @@ spec:
       monitoring: false
       resources:
         requests:
-          memory: "64Mi"
-          cpu: "100m"
+          memory: "50M"
+          cpu: "400m"
         limits:
-          memory: "96Mi"
-          cpu: "200m"
+          memory: "96M"
+          cpu: "600m"
       replicas: 1
       environmentVariables:
         - environment: production
@@ -38,10 +38,10 @@ spec:
       monitoring: true
       resources:
         requests:
-          memory: "64Mi"
-          cpu: "100m"
+          memory: "50M"
+          cpu: "150m"
         limits:
-          memory: "96Mi"
+          memory: "64M"
           cpu: "200m"
       replicas: 4
       environmentVariables:
