@@ -33,8 +33,8 @@ The purpose of the workshop is to give a general and hands-on introduction to Ra
 
 ### 1.1.1. Pre-requisites
 
-- Have access to the Radix Playground (Ask for access to Playgroiund in [#Omnia_Raidx](https://equinor.slack.com/messages/C8U7XGGAJ) on Slack)
-- Verify access to Radix - https://console.radix.equinor.com/
+- Have access to the Radix Playground (Ask for access to Playground in [#Omnia_Raidx](https://equinor.slack.com/messages/C8U7XGGAJ) on Slack)
+- Verify access to Radix - <url>
 - Account on github.com
 - Git installed and working locally against github.com
 - Docker running locally
