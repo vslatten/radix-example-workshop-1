@@ -18,6 +18,11 @@ const metricsMiddleware = promBundle({
         author: 'lksk'
     },
     includeUp: 1,
+    promClient: {
+        collectDefaultMetrics: {
+            timeout: 5000
+        }
+    },
 });
 
 var app = express();
