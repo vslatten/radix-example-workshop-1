@@ -8,27 +8,6 @@ spec:
       build:
         from: master
   components:
-    - name: www
-      src: ./www
-      ports:
-       - name: http
-         port: 3001
-      public: true
-      monitoring: false
-      resources:
-        requests:
-          memory: "50Mi"
-          cpu: "400m"
-        limits:
-          memory: "96Mi"
-          cpu: "600m"
-      replicas: 1
-      environmentVariables:
-        - environment: production
-          variables:
-            PORT: 3001
-            NODE_ENV: "production"
-            ECHO_URL: "http://echo:3000"
     - name: echo
       src: ./echo
       ports:
@@ -38,10 +17,10 @@ spec:
       monitoring: true
       resources:
         requests:
-          memory: "50Mi"
+          memory: "64Mi"
           cpu: "150m"
         limits:
-          memory: "64Mi"
+          memory: "128Mi"
           cpu: "200m"
       replicas: 4
       environmentVariables:
@@ -51,6 +30,27 @@ spec:
             NODE_ENV: "production"
       # secrets:
       #   - MY_SUPER_SECRET
+    - name: www
+      src: ./www
+      ports:
+       - name: http
+         port: 3001
+      public: true
+      monitoring: false
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "400m"
+        limits:
+          memory: "128Mi"
+          cpu: "600m"
+      replicas: 1
+      environmentVariables:
+        - environment: production
+          variables:
+            PORT: 3001
+            NODE_ENV: "production"
+            ECHO_URL: "http://echo:3000"
   dnsAppAlias:
     environment: production
     component: www
