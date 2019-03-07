@@ -5,6 +5,7 @@
 - Infrastructure as code
 - Continuous integration and continuous deployment
 - Monitoring
-- Developers focus on delivering functionality
+
+Developers focus on delivering functionality
 
 see [radix documetation](https://www.radix.equinor.com/) from more information
